@@ -32,5 +32,6 @@ int main()
     {
         cout << arr2[i] << " ";
     }
-    cout << endl;
+    cout << endl
+         << endl;
 }
