@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void quick_sort(int *arr, int n)
+void Quick_sort(int *arr, int n)
 {
 }
 void mergeSort(int *arr, int n)
@@ -27,7 +27,7 @@ int main()
     }
     cout << endl;
     cout << "Sorted using quick sort:";
-    quick_sort(arr2, n);
+    Quick_sort(arr2, n);
     for (int i = 0; i < n; ++i)
     {
         cout << arr2[i] << " ";
