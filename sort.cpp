@@ -9,7 +9,7 @@ void mergeSort(int *arr, int n)
 int main()
 {
     int n;
-    cout << "Enter the size" << endl;
+    cout << "Enter the size of the array" << endl;
     cin >> n;
     int *arr1 = new int[n];
     int *arr2 = new int[n];
